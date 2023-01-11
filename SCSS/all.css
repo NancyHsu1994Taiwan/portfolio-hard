@@ -95,18 +95,22 @@ main {
 .banner .banner-content {
   margin-top: 10rem;
 }
-.banner span {
+.banner p {
   font-size: 23px;
   letter-spacing: 2px;
   font-weight: 600;
   color: #bfbebe;
+  display: inline-block;
 }
 .banner h1 {
   font-size: 87px;
   font-weight: 900;
   line-height: 8rem;
 }
-.banner .jobTitle {
+.banner span {
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 600;
   color: #cf9c63;
   margin-bottom: 20px;
 }
@@ -116,4 +120,8 @@ main {
   background-color: #cf9c63;
   color: #fff;
   display: inline-block;
+}
+
+.about {
+  background-color: #232222;
 }/*# sourceMappingURL=all.css.map */

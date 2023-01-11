@@ -36,19 +36,22 @@ main{
     .banner-content{
         margin-top: 10rem;
     }
-    span{
+    p{
         font-size: 23px;
         letter-spacing: 2px;
         font-weight: 600;
         color: $color-grey;
-        // display: block;
+        display: inline-block;
     }
     h1{
         font-size: 87px;
         font-weight: 900;
         line-height: 8rem;
     }
-    .jobTitle{
+    span{
+        font-size: 23px;
+        letter-spacing: 2px;
+        font-weight: 600;
         color: $primary-orange;
         margin-bottom: 20px;
     }
@@ -59,4 +62,9 @@ main{
         color: #fff;
         display: inline-block;
     }
+}
+
+.about{
+    background-color: $bg-color;
+    
 }
