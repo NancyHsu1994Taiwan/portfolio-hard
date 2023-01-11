@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,16 +57,63 @@ li {
   list-style: none !important;
 }
 
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+
+main {
+  background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/header.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
 .navbar {
   padding: 20px 0;
+  opacity: rgba(0, 0, 0, 0);
 }
 .navbar .logo {
   padding: 13px 0;
   font-size: 24px;
   letter-spacing: 0.5px;
   font-weight: 600;
+  color: #fff;
 }
 
-.nav-btn li {
+.nav-btn a {
   padding: 10px;
+  color: #fff;
+}
+
+.banner {
+  margin-left: 14vw;
+}
+.banner .banner-content {
+  margin-top: 10rem;
+}
+.banner span {
+  font-size: 23px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: #bfbebe;
+}
+.banner h1 {
+  font-size: 87px;
+  font-weight: 900;
+  line-height: 8rem;
+}
+.banner .jobTitle {
+  color: #cf9c63;
+  margin-bottom: 20px;
+}
+.banner .hire {
+  margin-top: 2rem;
+  padding: 10px 30px;
+  background-color: #cf9c63;
+  color: #fff;
+  display: inline-block;
 }/*# sourceMappingURL=all.css.map */
