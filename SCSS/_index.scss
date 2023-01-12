@@ -63,7 +63,6 @@ main{
 
 .about{
     background-color: $bg-color;
-    text-align: center;
     padding: 70px 0 120px 0;
     .col-5{
         overflow: hidden;
@@ -81,11 +80,20 @@ main{
         p{
             color: $text-grey;
         }
+        .intro-detail{
+            border: 1px $text-grey solid;
+            padding: 33px 20px;
+        }
     }
 }
 
 .skills{
+    background-color: $bg-color;
     background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/skills.jpg);
     background-size: cover;
     background-position: center;
+    padding: 70px 0 120px 0;
+    .h2{
+        color: #000 !important;
+    }
 }

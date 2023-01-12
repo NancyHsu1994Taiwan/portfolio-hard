@@ -143,7 +143,6 @@ main .banner .hire {
 
 .about {
   background-color: #232222;
-  text-align: center;
   padding: 70px 0 120px 0;
 }
 .about .col-5 {
@@ -160,9 +159,18 @@ main .banner .hire {
 .about .col-7 p {
   color: #bfbebe;
 }
+.about .col-7 .intro-detail {
+  border: 1px #bfbebe solid;
+  padding: 33px 20px;
+}
 
 .skills {
+  background-color: #232222;
   background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/skills.jpg);
   background-size: cover;
   background-position: center;
+  padding: 70px 0 120px 0;
+}
+.skills .h2 {
+  color: #000 !important;
 }/*# sourceMappingURL=all.css.map */
