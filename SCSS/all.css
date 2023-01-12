@@ -69,6 +69,7 @@ img {
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
+  background-color: #232222;
 }
 
 h2 {
@@ -157,4 +158,10 @@ main {
 }
 .about p {
   color: red;
+}
+
+.skills {
+  background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/skills.jpg);
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=all.css.map */
