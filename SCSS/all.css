@@ -61,9 +61,29 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
+}
+
+h2 {
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 30px;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  line-height: 0.75;
 }
 
 main {
@@ -124,4 +144,17 @@ main {
 
 .about {
   background-color: #232222;
+}
+.about .col-4 {
+  overflow: hidden;
+}
+.about .col-4 img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.about .col-8 span {
+  color: #cf9c63;
+}
+.about p {
+  color: red;
 }/*# sourceMappingURL=all.css.map */

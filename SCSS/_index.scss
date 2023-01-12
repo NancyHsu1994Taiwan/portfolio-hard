@@ -8,9 +8,6 @@ main{
     // vertical-align: middle;
 }
 
-.box{
-    width: 100px;
-}
 .navbar{
     padding: 20px 0;
     opacity: rgba(0,0,0,0);
@@ -68,5 +65,23 @@ main{
 
 .about{
     background-color: $bg-color;
+    .col-4{
+        overflow: hidden;
+        img{
+            max-width: 100%;
+            border-radius: 8px;
+            }
+        }
+    .col-8{
+        span{
+            color: $primary-orange;
+            }
+        }
+        p{
+            color: red;
+        }
+
+    }
+
     
-}
+
