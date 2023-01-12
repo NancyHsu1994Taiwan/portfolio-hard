@@ -67,25 +67,23 @@ main{
     padding: 70px 0 120px 0;
     .col-5{
         overflow: hidden;
-            img{
-                max-width: 100%;
-                border-radius: 8px;
-                }
+        img{
+            max-width: 100%;
+            border-radius: 8px;
             }
-    .about-right{
+    }
+    .col-7{
         span{
             color: $primary-orange;
             font-size: 20px;
             }
-        }
+        
         p{
             color: $text-grey;
         }
-        
-
     }
+}
 
-    
 .skills{
     background-image: url(https://hasnaanajmi.com/TM/mirya/wp-content/uploads/2021/05/skills.jpg);
     background-size: cover;

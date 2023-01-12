@@ -153,11 +153,11 @@ main .banner .hire {
   max-width: 100%;
   border-radius: 8px;
 }
-.about .about-right span {
+.about .col-7 span {
   color: #cf9c63;
   font-size: 20px;
 }
-.about p {
+.about .col-7 p {
   color: #bfbebe;
 }
 
